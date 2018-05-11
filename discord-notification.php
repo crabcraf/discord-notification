@@ -6,7 +6,7 @@ list($flg_SendMsg, $flg_result) = $obj_DiscordBot->send_message($error_message);
 
 class DiscordBot
 {
-    private $botToken = 'your key';
+    private $botToken = 'your webhook key';
     private $api_url = "https://discordapp.com/api/webhooks/";
     private $curl_timeout = '60';
 
